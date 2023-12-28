@@ -1,4 +1,4 @@
-let a = 90; //most suitable
+let a = 90; //most suitable & flexible
 var b='anushka';  //not flexible;
 v="anu"          //not flexible
 console.log(a)
