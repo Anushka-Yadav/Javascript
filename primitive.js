@@ -33,3 +33,30 @@ const myfun = function(){
     );
 }
 myfun();
+
+
+//================================== memories=========================================================
+
+/*
+stack(in primitive data types)
+heap(nonprimitive data types)
+*/
+
+//stack vision
+
+let str1="anushka"
+let str2=str1
+console.log(str1,str2);
+str2="anu"
+console.log(str1,str2); //copy is provided not the original str1
+
+let user1={
+    name:"anushka",
+    rollno:24
+}
+let user2=user1;
+console.log(user1.name,user2.name); //original reference is provided
+user2.name="manav"
+console.log(user1.name,user2.name);
+
+
